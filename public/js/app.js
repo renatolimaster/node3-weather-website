@@ -9,7 +9,7 @@ weatherForm.addEventListener('submit', e => {
   e.preventDefault();
   const location = search.value;
 
-  const urlGeocode = 'http://localhost:3000/weather?address=' + location;
+  const urlGeocode = '/weather?address=' + location;
 
   messageOne.textContent = 'Loading...';
   messageTwo.textContent = '';
