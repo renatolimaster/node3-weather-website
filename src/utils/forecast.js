@@ -24,9 +24,9 @@ const forecast = (lat, long, callback) => {
           ' It is currently ' +
           currently.temperature +
           ' degrees out.\nThe righer temperature will be ' +
-          daily.temperatureMax +
+          daily.temperatureHigh +
           ' and the lower temperature wil be ' +
-          daily.temperatureMin +
+          daily.temperatureLow +
           '.\nThere is a ' +
           currently.precipProbability +
           '% chance of rain.'
